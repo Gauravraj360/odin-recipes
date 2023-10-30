@@ -1,0 +1,64 @@
+.container{
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container .heading{
+    
+    font-size: 50px;
+    
+    margin: auto 0px;
+}
+
+.recipe-container{
+    color: brown;
+    font-weight: 500;
+    
+}
+
+.recipe-container img{
+    width: 400px;
+    border-radius: 6px;
+}
+
+.recipe-button a{
+    text-decoration: none;
+}
+
+.recipe-button{
+    background-color: lightgreen;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+ .recipe-button:hover{
+    background-color: rgb(243, 132, 132);
+    color: white;
+ }
+
+ .cook-time{
+    display: flexbox;
+    background-color: rgb(238, 221, 221);
+    color: black;
+    border-radius: 6px;
+    font-size: 20px;
+    text-align: left;
+ }
+ .description p,
+ .ingredients-list,
+ .cooking-step,
+ .cook-note p{
+    background-color: rgb(238, 221, 221);
+    border-radius: 6px;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+ }
+
+ 
